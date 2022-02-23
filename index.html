@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join the Kingdom of Hawaii</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="/script.js" defer></script>
+</head>
+<body>
+    <div class="main-container">
+        <div class="disclaimer"> &gt;&gt;&gt;&gt; !!!! DISCLAIMER: THIS IS NOT A REAL SERVICE. JUST AN EXCERCISE OF A MOCK SIGN UP PAGE !!!! &lt;&lt;&lt;&lt; </div>
+        <div class="banner-container">
+            <img src="./img/mauna-kea.png" alt="a logo of mauna">
+            Kamehameha<br>Kommune
+        </div>
+        <div class="info-container">
+            <p class="ohana">OHANA AWAITS</p>
+            <p class="pitch">
+            Her Majesty, <span class="queen">Liliuokalani II</span>, vanquisher of Haolies, Mistress of Maui,
+            true and rightful master of Lolani palace and Sovereign of all Hawaii
+            <br>is hereby calling on all expatriated children of Pele to return back 
+            to the aina of their ancestors.
+            <br>Join our Kamehameha Kommune and help us restore our Ohana. 
+            <br>Her Majesty is allowing Haolies of 
+            good will and with endorsement of a native to join our Ohana if 
+            they meet the standards of Aloha.
+            <br>Sign up below.
+            </p>
+
+            <div class="errorMsg"></div>
+            <form action="/" method="GET" id="signUpForm">
+                <label for="firstName">First Name:</label>
+                    <input type="text" name="firstName" id="firstName" placeholder="Your First Name">
+                <label for="lastName">Last Name:</label>
+                    <input type="text" name="lastName" id="lastName" placeholder="Your Last Name" >
+                <label for="age">Age:</label>
+                    <input type="number" name="age" id="age" placeholder="Your age">
+                <label for="gender">Gender:</label>
+                    <select >
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="lgbtq">confused</option>
+                    </select>
+                
+                <div class="radioWrapper"><span>Are you:</span>
+                    <div class="radioBtns">
+                        <label for="nativeHawaiian">Native Hawaiian
+                            <input type="radio" name="nativeOrNot" value="nativeHawaiian" id="nativeHawaiian" checked>
+                        </label>
+                        <label for="expatHawaiian">Hawaiian living Abroad
+                            <input type="radio" name="nativeOrNot" value="expatHawaiian" id="expatHawaiian">
+                        </label>
+                        <label for="nativeHaolie">Native Haolie
+                            <input type="radio" name="nativeOrNot" value="nativeHaolie" id="nativeHaolie">
+                        </label>  
+                        <label for="haolie">Haolie
+                            <input type="radio" name="nativeOrNot" value="haolie" id="haolie">
+                        </label>     
+                     </div>
+                </div>
+
+                <label for="applicantEmail">Email:</label>
+                    <input type="email" name="applicantEmail" id="applicantEmail" placeholder="Your Email" >
+                <label for="applicantPhone">Phone Number:</label>
+                    <input type="tel" name="applicantPhone" id="applicantPhone" placeholder="Your Phone Number">
+                <label for="coverLetter">Tell us about yourself and why you belong in our commune:</label>
+                    <textarea name="coverLetter" id="coverLetter" placeholder="make your case..."></textarea>
+                <label for="applicantPhoto"> Upload your cover photo or picture ID:</label>
+                    <input type="file" accept="image/png, image/gif, image/jpeg" name="applicantPhoto">
+                <label for="password">Set Account Password:</label>
+                    <input type="password" name="password" id="password" placeholder="set new password" >
+                <label for="confirmPassword">Confirm Password:</label>
+                    <input type="password" name="confirmPassword" id="confirmPassword" placeholder="confrirm new password" >
+                <button type="submit" id="signUpBtn">SIGN UP</button>
+            </form>
+        </div>
+       
+    </div>
+    
+</body>
+</html>
