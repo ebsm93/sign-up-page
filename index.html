@@ -15,6 +15,10 @@
             <img src="./img/mauna-kea.png" alt="a logo of mauna">
             Kamehameha<br>Kommune
         </div>
+        <div class="footer">
+            <p>Main background photo by Braden Jarvis on Unsplash<br>
+                Mauna kea icons created by Eucalyp on Flaticon</p>
+        </div>
         <div class="info-container">
             <p class="ohana">OHANA AWAITS</p>
             <p class="pitch">
@@ -30,13 +34,13 @@
             </p>
 
             <div class="errorMsg"></div>
-            <form action="/" method="GET" id="signUpForm">
+            <form action="" method="" id="signUpForm">
                 <label for="firstName">First Name:</label>
-                    <input type="text" name="firstName" id="firstName" placeholder="Your First Name">
+                    <input type="text" name="firstName" id="firstName" placeholder="Your First Name" required>
                 <label for="lastName">Last Name:</label>
-                    <input type="text" name="lastName" id="lastName" placeholder="Your Last Name" >
+                    <input type="text" name="lastName" id="lastName" placeholder="Your Last Name" required>
                 <label for="age">Age:</label>
-                    <input type="number" name="age" id="age" placeholder="Your age">
+                    <input type="number" name="age" id="age" placeholder="Your age" required>
                 <label for="gender">Gender:</label>
                     <select >
                         <option value="male">Male</option>
@@ -62,7 +66,7 @@
                 </div>
 
                 <label for="applicantEmail">Email:</label>
-                    <input type="email" name="applicantEmail" id="applicantEmail" placeholder="Your Email" >
+                    <input type="email" name="applicantEmail" id="applicantEmail" placeholder="Your Email" required>
                 <label for="applicantPhone">Phone Number:</label>
                     <input type="tel" name="applicantPhone" id="applicantPhone" placeholder="Your Phone Number">
                 <label for="coverLetter">Tell us about yourself and why you belong in our commune:</label>

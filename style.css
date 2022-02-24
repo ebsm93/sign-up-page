@@ -191,3 +191,32 @@ textarea::placeholder {
     text-align: center;
     padding-top: 1vh;
 }
+
+/* .credits {
+    width: 25vw;
+
+    position: relative;
+    top: 270vw;
+    right: 30vw;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: none;
+    color: rgb(236, 203, 57);
+    font-weight: 100;
+    font-size: 1.5vw;
+} */
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 30%;
+
+    color: orangered;
+    text-align: center;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: none;
+    font-weight: 100;
+    font-size: 0.8vw;
+  }

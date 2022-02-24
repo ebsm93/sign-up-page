@@ -1,12 +1,12 @@
-const firstName = document.getElementById('firstName');
-const lastName = document.getElementById('lastName');
-const age = document.getElementById('age');
-const password = document.getElementById('password');
-const confirmPassword = document.getElementById('confirmPassword');
-const form = document.getElementById('signUpForm');
-const errorMsg = document.getElementsByClassName('errorMsg');
+// const firstName = document.getElementById('firstName');
+// const lastName = document.getElementById('lastName');
+// const age = document.getElementById('age');
+// const password = document.getElementById('password');
+// const confirmPassword = document.getElementById('confirmPassword');
+// const form = document.getElementById('signUpForm');
+// const errorMsg = document.getElementsByClassName('errorMsg');
 
-form.addEventListener('submit', (e) => {
+// form.addEventListener('submit', (e) => {
     // let messages = []
 
     // if (password.value !== confirmPassword.value) {
@@ -19,8 +19,8 @@ form.addEventListener('submit', (e) => {
     //     errorMsg.textContent = messages.join(', ');
     // }
 
-        e.preventDefault();
+        // e.preventDefault();
     
-});
+// });
 
 
